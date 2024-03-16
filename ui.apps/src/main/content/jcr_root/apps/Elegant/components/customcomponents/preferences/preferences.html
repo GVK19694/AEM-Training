@@ -1,9 +1,0 @@
-<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html"/>
-<sly data-sly-call="${template.placeholder @ isEmpty=!properties.name}"/>
-
-<sly data-sly-test="${properties.name}">
-    <h3 style="color: ${properties.color @ context='styleString'};font-size: ${properties.font @ context='styleString'};">Name: ${properties.name}</h3>
-    <h3 style="color: ${properties.color @ context='styleString'};font-size: ${properties.font @ context='styleString'};">Country: ${properties.country}</h3>
-    <h3 style="color: ${properties.color @ context='styleString'};font-size: ${properties.font @ context='styleString'};">Favourite color: ${properties.color}</h3>
-    <h3 style="color: ${properties.color @ context='styleString'};font-size: ${properties.font @ context='styleString'};">Favourite font: ${properties.font}</h3>
-</sly>
