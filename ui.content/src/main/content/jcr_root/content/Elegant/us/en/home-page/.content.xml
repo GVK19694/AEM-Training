@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-03-14T23:00:36.678+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Elegant/settings/wcm/templates/home-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home Page"
+        sling:resourceType="Elegant/components/customcomponents/page">
+        <root
+            jcr:lastModified="{Date}2024-03-14T18:22:36.342+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text
+                jcr:created="{Date}2024-03-14T18:32:10.199+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-03-14T18:32:14.793+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Elegant/components/customcomponents/text"
+                text="My name is VAMSIKRISHNA G"/>
+            <user
+                jcr:created="{Date}2024-03-14T22:57:03.254+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-03-14T22:57:39.292+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Elegant/components/customcomponents/user"
+                address="108, Parimala Elan, 3rd Cross Rd, Aswath Nagar&#xd;&#xa;10th Cross Rd Anand Nagar, Marathahalli"
+                email="gvk19694@gmail.com"
+                fname="VAMSIKRISHNA"
+                gender="Male"
+                lname="G"/>
+        </root>
+    </jcr:content>
+</jcr:root>

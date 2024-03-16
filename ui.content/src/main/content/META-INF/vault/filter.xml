@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/Elegant" mode="merge"/>
+    <filter root="/content/Elegant" mode="merge"/>
+    <filter root="/content/dam/Elegant" mode="merge">
+        <exclude pattern="/content/dam/Elegant(/.*)?"/>
+        <include pattern="/content/dam/Elegant/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/Elegant/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/Elegant" mode="merge"/>
+</workspaceFilter>

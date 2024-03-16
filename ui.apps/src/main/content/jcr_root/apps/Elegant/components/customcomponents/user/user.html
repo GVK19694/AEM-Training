@@ -1,0 +1,12 @@
+<div>
+	<b>User Details</b>
+	<br><br>
+	<div data-sly-use.user="com.elegant.training.core.models.User" data-sly-unwrap>
+		<div data-sly-test="${!user || wcmmode.edit}">Add state details using component dialog</div>
+		<div>First Name: ${user.fname}</div>
+		<div>Last Name: ${user.lname}</div>
+		<div>Gender: ${user.gender}</div>
+		<div>Email: ${user.email}</div>
+		<div>Address: ${user.address}</div>
+	</div>
+</div>
