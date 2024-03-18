@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2024-03-14T23:00:36.678+05:30"
+        cq:lastModified="{Date}2024-03-18T11:07:26.564+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/Elegant/settings/wcm/templates/home-page"
         jcr:primaryType="cq:PageContent"
@@ -21,10 +21,19 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="Elegant/components/customcomponents/text"
                 text="My name is VAMSIKRISHNA G"/>
-            <user
-                jcr:created="{Date}2024-03-14T22:57:03.254+05:30"
+            <product
+                jcr:created="{Date}2024-03-14T22:27:59.590+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2024-03-14T22:57:39.292+05:30"
+                jcr:lastModified="{Date}2024-03-14T22:28:55.605+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Elegant/components/customcomponents/product"
+                email="gvk19694@gmail.com"
+                name="LOREAL"/>
+            <user
+                jcr:created="{Date}2024-03-18T11:04:29.886+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-03-18T11:04:44.719+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="Elegant/components/customcomponents/user"
@@ -33,6 +42,15 @@
                 fname="VAMSIKRISHNA"
                 gender="Male"
                 lname="G"/>
+            <card
+                jcr:created="{Date}2024-03-18T11:04:54.733+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-03-18T11:07:26.563+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Elegant/components/customcomponents/card"
+                buttonText="LinkedIn"
+                cardTitle="GALANKI"/>
         </root>
     </jcr:content>
 </jcr:root>
