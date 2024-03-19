@@ -37,7 +37,7 @@ public class PropertyEventListener implements EventListener {
                     getObservationManager().
                     addEventListener(
                             this, Event.PROPERTY_ADDED | Event.NODE_ADDED,
-                            "/content/Elegant", true, null,
+                            "/content/Elegant/us/en", true, null,
                             null, false
                     );
         } catch (RepositoryException e) {
@@ -52,7 +52,7 @@ public class PropertyEventListener implements EventListener {
             while (events.hasNext()) {
                 // Get the current event
                 Event event = events.nextEvent();
-                LOGGER.info("{}: Event was added by: {} at path: {}", TAG, event.getUserID(), event.getPath());
+                LOGGER.info("{}:  : {} at path: {}", TAG, event.getUserID(), event.getPath());
             }
         } catch (RepositoryException e) {
             LOGGER.error("{}: exception occurred: {}: ", TAG, e.getMessage());
