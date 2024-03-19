@@ -1,4 +1,4 @@
-package com.elegant.training.core.workflows;
+package com.elegant.training.core.workflows.participant;
 
 import com.adobe.granite.workflow.WorkflowException;
 import com.day.cq.workflow.WorkflowSession;
@@ -21,6 +21,6 @@ public class DynamicParticipantStep implements ParticipantStepChooser {
         LOGGER.info("Dynamic Participant Step was running");
         Workflow wf = wi.getWorkflow();
 
-        return "assining-ownership";
+        return "asining-ownership";
     }
 }

@@ -1,4 +1,4 @@
-package com.elegant.training.core.workflows;
+package com.elegant.training.core.workflows.process;
 
 import com.adobe.granite.workflow.WorkflowException;
 import com.adobe.granite.workflow.WorkflowSession;
